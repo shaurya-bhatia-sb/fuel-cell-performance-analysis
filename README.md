@@ -39,6 +39,8 @@ The dataset `Fuel_cell_performance_data-Full.csv` should be placed in the `data/
 ## Results
 The results are displayed in the console after executing the script.
 
+![Results](results/results.png)
+
 ## Dependencies
 - pandas
 - scikit-learn
