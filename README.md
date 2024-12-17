@@ -49,3 +49,12 @@ The results are displayed in the console after executing the script.
 
 ## License
 This project is licensed under the MIT License.
+
+
+## Contributing
+If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
+
+
+---
+  
+Made with ❤️ by Shaurya Bhatia
