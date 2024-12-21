@@ -67,8 +67,10 @@ fuel-cell-performance-analysis/
 │   └── fuel_cell_analysis.py  # Main analysis script
 │
 ├── requirements.txt  # Dependencies
+|
 ├── results/
 │   └── results.png  # screenshot of model evaluations
+|
 ├── README.md         # Project documentation
 
 ```
