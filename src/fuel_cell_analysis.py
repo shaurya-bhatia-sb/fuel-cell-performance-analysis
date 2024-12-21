@@ -68,9 +68,9 @@ for model_name, model in models.items():
     r2 = r2_score(y_test, y_pred)
     results[model_name] = {"MSE": mse, "R2 Score": r2}
 
-# Print results
-print("\nModel Performance:")
+# Print results in a tabular format
+print("\nModel Performance:\n")
+print("{:<25} {:<15} {:<15}".format("Model", "MSE", "R2 Score"))
+print("="*55)
 for model_name, metrics in results.items():
-    print(f"\n{model_name}")
-    for metric, value in metrics.items():
-        print(f"{metric}: {value}")
+    print("{:<25} {:<15.2f} {:<15.4f}".format(model_name, metrics["MSE"], metrics["R2 Score"]))
